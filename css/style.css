@@ -113,10 +113,10 @@ i{
 .jumbotron{
     width: 100%;
     background-color: #fff2ee;
-    height: 500px;
+    height: 600px;
     background-image: url("../img/jumbotron.png");
-    background-size:72%;
-    background-position: 100% 21%;
+    background-size:85%;
+    background-position: 100% 14%;
     background-repeat: no-repeat;
 }
 
