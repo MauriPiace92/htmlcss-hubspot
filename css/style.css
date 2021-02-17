@@ -17,6 +17,7 @@ body{
 /* COMMON */
 .container{
     width: 75%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -48,13 +49,24 @@ i{
     text-decoration: none;
     font-size: 20px;
     color:#425b76;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .button{
-    padding:10px 20px;
+    padding:20px 20px;
     background-color: #fe775a;
     color: white;
     border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.text-general{
+
+    color:#425b76;
+    margin:30px 0;
+    font-weight: bold;
 }
 
 /* Header */
@@ -84,6 +96,12 @@ i{
     padding: 10px;
     border-radius: 5px;
 }
+
+#little-button{
+    padding:10px 20px;
+    color: white;
+
+}
 /* end nav-top */
 
 /* nav-button */
@@ -100,12 +118,11 @@ i{
 }
 
 .bottom-sx{
-    width: 30%;
+    width: 20%;
 }
 .bottom-dx{
-    width: 70%;
+    width: 80%;
     text-align:right;
-    margin: 15px 0;
 }
 /* end nav-bottom */
 
@@ -120,12 +137,15 @@ i{
     background-repeat: no-repeat;
 }
 
+.jumbotron-title{
+    width: 50%;
+    color:#425b76;
+    padding-top: 5%;
+}
 
-
-
-
-
-
+h1 {
+    font-size: 50px;   
+}
 
 .end-jumbotron{
     width: 100%;
@@ -133,4 +153,17 @@ i{
     background-color: #afebe4;
     border-bottom:4px solid #425b76 ;
     border-top:4px solid #425b76 ;
+}
+/* end jumbotron */
+
+/* END HEADER */
+
+/* MAIN */
+.sec-top{
+    width: 100%;
+    background-color: #f4f9fd;
+
+    /* TEST */
+    height:800px;
+
 }
