@@ -76,7 +76,6 @@ i{
     color:#425b76;
     margin:30px 0;
     font-weight: bold;
-    text-align: left;
 }
 
 main img{
@@ -106,6 +105,9 @@ main h4{
 .fa-chevron-circle-down{
     color: #fe775a;
     margin:0 15px;
+}
+.lefter{
+    text-align: left;
 }
 
 hr{
@@ -289,9 +291,53 @@ h1 {
 /* Section Blue */
 .gradient{
     width: 100%;
-    background-image: linear-gradient(to right, #00acb7, #00bba8);
-
-    /* Test */
-    height: 800px;
+    background-image: linear-gradient(to right, #00a4bd, #00bba8);
+    padding: 5% 0;
 }
 
+.gradient h2{
+    margin:0 30px;
+}
+
+.white{
+    color:white;
+}
+
+/* Grid */
+.grid{
+    padding: 5% 0;
+    width: 100%;
+}
+.square{
+    height: 200px;
+    display: inline-block;
+    width: 25%;
+    border-bottom: 2px solid white;
+    border-right:2px solid white;
+    padding: 30px 0;
+
+}
+
+.square:nth-child(4n){
+    border-right:0px solid white;
+}
+
+.square:nth-child(1n+5){
+    border-bottom: 0px solid white;
+}
+
+.grid img{
+    height: 30px;
+
+}
+
+.grid .bigger{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: arial;
+    margin: 10px 0;
+}
+.grid .little-span{
+    font-size: 30px;
+    vertical-align: middle;   
+}
