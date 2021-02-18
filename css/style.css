@@ -284,3 +284,14 @@ h1 {
     width: 30%;
 
 }
+/* End Section Top */
+
+/* Section Blue */
+.gradient{
+    width: 100%;
+    background-image: linear-gradient(to right, #00acb7, #00bba8);
+
+    /* Test */
+    height: 800px;
+}
+
