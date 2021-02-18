@@ -16,7 +16,6 @@ body{
 /* COMMON */
 .container{
     width: 75%;
-    height: 100%;
     margin: 0 auto;
 }
 
@@ -112,6 +111,9 @@ main h4{
 
 hr{
     border-top:2px solid #425b76 ;
+}
+.white{
+    color:white;
 }
 
 /* END COMMON */
@@ -210,7 +212,7 @@ h1 {
 
 /* MAIN */
 /* Section Top */
-.sec-top{
+.sec-bg{
     width: 100%;
     background-color: #f4f9fd;
 }
@@ -233,9 +235,6 @@ h1 {
      box-shadow: 5px 5px 5px 5px gray;
  }
 
- .image{
-     height: 150px;
- }
 
 /* END COMMON IN SECTION row-bottom and col*/
 /* section-row-col */
@@ -299,17 +298,12 @@ h1 {
     margin:0 30px;
 }
 
-.white{
-    color:white;
-}
-
 /* Grid */
 .grid{
     padding: 5% 0;
     width: 100%;
 }
 .square{
-    height: 200px;
     display: inline-block;
     width: 25%;
     border-bottom: 2px solid white;
@@ -340,4 +334,16 @@ h1 {
 .grid .little-span{
     font-size: 30px;
     vertical-align: middle;   
+}
+/* end grid */
+/* End Section Blue */
+
+/* Section Bottom */
+.sec-bottom{
+    background-color:white ;
+    width: 100%;
+    
+    
+    
+    height: 600px;
 }
