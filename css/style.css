@@ -212,7 +212,7 @@ h1 {
 
 /* MAIN */
 /* Section Top */
-.sec-bg{
+.sec-top{
     width: 100%;
     background-color: #f4f9fd;
 }
@@ -325,7 +325,7 @@ h1 {
 
 }
 
-.grid .bigger{
+.bigger{
     font-size: 50px;
     font-weight: 700;
     font-family: arial;
@@ -346,4 +346,15 @@ h1 {
     
     
     height: 600px;
+}
+
+.sx{
+    width: 30%;
+    margin-top: 5%;
+    padding:0 83px;
+}
+
+.sx .bigger{
+    color:#425b76;
+
 }
