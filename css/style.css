@@ -7,7 +7,6 @@
 }
 
 img{
-    width: 100%;
     display: block;
 }
 body{
@@ -25,6 +24,13 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+.centered{
+    text-align: center;
+}
+
+.center{
+    margin:auto;
 }
 
 .col{
@@ -60,6 +66,7 @@ i{
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+    margin:20px 0;
 }
 
 .text-general{
@@ -69,7 +76,19 @@ i{
     font-weight: bold;
 }
 
-/* Header */
+main img{
+    height: 200px;
+}
+
+main h2{
+    text-align:center;
+    font-size: 32px;
+    color:#425b76;
+}
+/* End COMMON */
+
+
+/* HEADER */
 
 /* nav-top */
 .nav-top{
@@ -162,8 +181,35 @@ h1 {
 .sec-top{
     width: 100%;
     background-color: #f4f9fd;
+}
 
-    /* TEST */
-    height:800px;
+.row-top{
+    width: 75%;
+    padding:40px;
+}
+
+.row-bottom{
+    width: 100%;
+    padding:10px 0;
 
 }
+
+/* COMMON IN SECTION row-bottom and col*/
+ .box{
+     background-color: white;
+     border-radius:5px;
+     box-shadow: 5px 5px 5px 5px gray;
+ }
+
+ .image{
+     height: 150px;
+ }
+
+/* END COMMON IN SECTION row-bottom and col*/
+
+.sec-col-left{
+    width: 40%;
+
+}
+
+
