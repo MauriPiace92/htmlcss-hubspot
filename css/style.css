@@ -49,6 +49,10 @@ i{
     list-style-type: none;
 }
 
+#border{
+    border-right: 1px solid black;
+}
+
 .menu li{
     display: inline-block;
     padding: 15px 20px;
@@ -70,6 +74,12 @@ i{
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #fe775a;
+    border:1px solid #fe775a;
 }
 
 .text-general{
@@ -121,9 +131,15 @@ hr{
 
 
 /* HEADER */
+header a:hover{
+    text-decoration: underline;
+    color:#fe775a;  
+}
 
 /* nav-top */
 .nav-top{
+    position: sticky;
+    top:0;
     width: 100%;
     background-color: #f4f9fd;   
 }
@@ -143,6 +159,10 @@ header hr{
     color:#2ab3c9;
 }
 
+.fa-search:hover{
+    color:#fe775a;
+}
+
 #login{
     border:1px solid #fe775a;
     color: #fe775a;
@@ -150,11 +170,20 @@ header hr{
     border-radius: 5px;
 }
 
+#login:hover{
+    color: cyan;
+    border: 1px solid cyan;
+}
+
 #little-button{
     padding:10px 20px;
     color: white;
     margin-top: 0;
 
+}
+#little-button:hover{
+    color:#fe775a;
+    border:1px solid #fe775a;
 }
 /* end nav-top */
 
@@ -461,6 +490,11 @@ footer{
     margin: 0px 20px;
 }
 
+.footer-bot a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+
 .footer-bot-down-dx{
     float:right;
 }
@@ -472,5 +506,10 @@ footer{
 
 footer hr{
     margin: 20px 0;
+}
+
+.footer-bot-down-dx a:hover{
+    color:cyan;
+    text-decoration: underline;
 }
 
